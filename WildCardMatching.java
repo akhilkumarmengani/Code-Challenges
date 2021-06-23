@@ -71,6 +71,7 @@ class Solution {
         return dp[pMod.length()-1][s.length()-1]==null? false:dp[pMod.length()-1][s.length()-1];
     }
     
-    
+    // time complexity = O(min(s,p/2))
+    // p/2 is the maximum number of stars in the pattern
     
 }
